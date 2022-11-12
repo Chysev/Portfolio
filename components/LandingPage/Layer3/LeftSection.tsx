@@ -15,10 +15,10 @@ const LeftSection = () => {
             <div className="flex items-center gap-[1px]">
                 <Line />
                 {
-                    datas.map((datas) => (
+                    datas.map((datas, index) => (
 
                         <p
-                            key={datas.id}
+                            key={index}
                             className="text-[20px]">{datas.content8}</p>
                     ))
                 }
@@ -26,10 +26,10 @@ const LeftSection = () => {
             </div>
 
             {
-                datas.map((datas) => (
+                datas.map((datas, index) => (
 
                     <h1
-                        key={datas.id}
+                        key={index}
                         className="text-[28px] text-lightcolor dark:text-[white] 768max:text-2xl">{datas.content9}</h1>
                 ))
             }
@@ -37,10 +37,10 @@ const LeftSection = () => {
             <div>
 
                 {
-                    datas.map((datas) => (
+                    datas.map((datas, index) => (
 
                         <p
-                            key={datas.id}
+                            key={index}
                             className="my-[18px] 380px:w-[300px] max-w-[637px] text-justify leading-[27px] text-lightcolor dark:text-paragraphdarkcolor 992max:w-[520px] 640max:text-base 560max:w-[auto] 380max:text-sm">
                             {datas.content10}
                         </p>
