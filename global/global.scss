@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* DarkMode and LightMode */
+@layer base {
+  body {
+    @apply border-lightborder bg-lightbackground text-lightcolor dark:border-darkborder dark:bg-darkbackground dark:text-darkcolor;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #171f38;
+}
+::-webkit-scrollbar-thumb {
+  background: #01d293;
+  border-radius: 12px;
+}
+
+.portfolios {
+  padding: 25px 20px;
+  transform-origin: top center;
+  .cardbtn {
+    display: none;
+    animation: growDown 400ms ease-in-out forwards;
+  }
+  &:hover .cardbtn {
+    display: block;
+    inset: 0;
+    opacity: 1;
+    animation: growDown 400ms ease-in-out forwards;
+  }
+}
+
+@keyframes growDown {
+  0% {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+
+  70% {
+    transform: rotateX(20deg);
+    opacity: 3;
+  }
+
+  100% {
+    transform: rotateX(0deg);
+    opacity: 2;
+  }
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .NavRowList {
+    inset: 0 0 0 30%;
+    backdrop-filter: blur(1rem);
+    box-shadow: 0px 1px 2.2px rgba(0, 0, 0, 0.02),
+      0px 2.5px 5.3px rgba(0, 0, 0, 0.028), 0px 4.6px 10px rgba(0, 0, 0, 0.035),
+      0px 8.3px 17.9px rgba(0, 0, 0, 0.042),
+      0px 15.5px 33.4px rgba(0, 0, 0, 0.05), 0px 37px 80px rgba(0, 0, 0, 0.07);
+    transition: 200ms ease;
+    z-index: 9998;
+  }
+}
