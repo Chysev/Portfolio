@@ -1,8 +1,4 @@
-const StandForUkrain = () => {
-
-    const date = new Date();
-    const year = date.getFullYear();
-
+const Announcement = () => {
     return (
         <footer className="flex dark:bg-darksurface">
             <div className="m-auto  flex w-[1300px] max-w-[1300px] gap-[1rem] items-center justify-center py-[10px] px-[30px] 992max:flex">
@@ -15,4 +11,4 @@ const StandForUkrain = () => {
     );
 };
 
-export default StandForUkrain;
+export default Announcement;
