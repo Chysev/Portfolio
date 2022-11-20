@@ -2,8 +2,6 @@
 import datas from '../../data/checkdata2.json'
 
 const Tools = () => {
-
-
     return (
         <div className="grid grid-cols-5 992max:grid-cols-4 560max:grid-cols-3 380max:grid-cols-2 gap-2">
             {
