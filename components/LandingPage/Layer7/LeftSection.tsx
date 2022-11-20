@@ -45,9 +45,6 @@ const LeftSection = () => {
                     <i className="fa-solid fa-angle-right text-2xl text-lightcolor dark:text-darkcolor" />
                     Send me an Email via this Portfolio or Message me on Facebook Messenger, Instagram or Discord.
                 </p>
-
-
-
             </div>
         </>
     );
