@@ -1,26 +1,46 @@
 [
     {
         "id": "1",
-        "content": "Critical Thinking"
+        "check": "VSCODE"
     },
     {
         "id": "2",
-        "content": "Problem Solving"
+        "check": "GIT"
     },
     {
         "id": "3",
-        "content": "Time Managemenr"
+        "check": "GITHUB"
     },
     {
         "id": "4",
-        "content": "Researcher"
+        "check": "NODEJS"
     },
     {
         "id": "5",
-        "content": "Creativity"
+        "check": "NODEJS"
     },
     {
         "id": "6",
-        "content": "Handsome"
+        "check": "TERMINAL"
+    },
+    {
+        "id": "7",
+        "check": "NPM"
+    },
+    {
+        "id": "8",
+        "check": "PNPM"
+    },
+    {
+        "id": "9",
+        "check": "YARN"
+    },
+    {
+        "id": "10",
+        "check": "LINUX"
+    },
+    {
+        "id": "11",
+        "check": "DOCKER"
     }
 ]

@@ -46,9 +46,8 @@ const LeftSection = () => {
 
             <h2 className="my-[1rem] leading-[24px] mx-auto max-w-[600px] text-lightcolor dark:text-paragraphdarkcolor 640max:text-base 380max:text-sm 1300max:max-w-[520px]">
                 <span className="text-lightcolor dark:text-darkcolor">
-                    MERN, MEVN, NEXTJS | </span>
-
-                HTML, CSS, SCSS, SASS, JavaScript and TypeScript.
+                    MERN, MEVN, MEAN | </span>
+                Get ready for your next project!
             </h2>
 
             {

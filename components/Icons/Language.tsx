@@ -1,7 +1,5 @@
-import { motion } from 'framer-motion'
-
 // data
-import datas from '../../data/checkdata.json'
+import datas from '../../data/checkdata2.json'
 
 const Language = () => {
     return (

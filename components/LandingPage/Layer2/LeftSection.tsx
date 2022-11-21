@@ -1,7 +1,7 @@
 // Components
 import MERN from "../../MiniCards/Mern"
 import MEVN from "../../MiniCards/Mevn"
-import NEXT from "../../MiniCards/Next"
+import MEAN from "../../MiniCards/Mean"
 import EJS from "../../MiniCards/Ejs"
 
 const LeftSection = () => {
@@ -9,7 +9,7 @@ const LeftSection = () => {
         <div className="grid grid-cols-2 992max:grid-cols-1">
             <MERN />
             <MEVN />
-            <NEXT />
+            <MEAN />
             <EJS />
         </div>
     )

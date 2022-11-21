@@ -1,42 +1,46 @@
 [
     {
         "id": "1",
-        "check": "VSCODE"
+        "check": "HTML"
     },
     {
         "id": "2",
-        "check": "GIT"
+        "check": "HTMX"
     },
     {
         "id": "3",
-        "check": "GITHUB"
+        "check": "XML"
     },
     {
         "id": "4",
-        "check": "GRAPHQL"
+        "check": "CSS"
     },
     {
         "id": "5",
-        "check": "NODEJS"
+        "check": "SCSS"
     },
     {
         "id": "6",
-        "check": "TERMINAL"
+        "check": "SASS"
     },
     {
         "id": "7",
-        "check": "SQL"
+        "check": "JAVASCRIPT"
     },
     {
         "id": "8",
-        "check": "MYSQL"
+        "check": "TYPESCRIPT"
     },
     {
         "id": "9",
-        "check": "LINUX"
+        "check": "PYTHON"
     },
     {
         "id": "10",
-        "check": "DOCKER"
+        "check": "C & C++"
+    },
+    {
+        "id": "11",
+        "check": "JAVA"
     }
 ]

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 // Component
 import Line from "../../Icons/Line";
 

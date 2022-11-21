@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+
 // Components
 import LeftSection from "./Layer1/LeftSection"
 import RightSection from "./Layer1/RightSection"

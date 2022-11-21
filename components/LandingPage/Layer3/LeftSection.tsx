@@ -6,7 +6,7 @@ import Button from "../../Buttons/Button"
 
 // data
 import datas from '../../../data/herodata.json'
-import datas2 from '../../../data/checkdata3.json'
+import datas2 from '../../../data/checkdata.json'
 
 const LeftSection = () => {
     return (
