@@ -1,5 +1,5 @@
 // data 
-import Layda from '../../../public/Layda2.jpg'
+import Layda from '../../../public/Layda3.jpg'
 
 const RightSection = () => {
     return (
