@@ -5,10 +5,12 @@ import { useTheme } from "next-themes";
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
 
 const Switcher = () => {
+
     const { systemTheme, theme, setTheme } = useTheme();
 
     const RenderThemeChanger = () => {
-        const [mounted, setMounted] = useState(false);
+
+        let [mounted, setMounted] = useState(false);
 
         useEffect(() => {
             setMounted(true);

@@ -6,7 +6,8 @@ import NavList from "./components/NavList"
 import Announcement from "../Others/Announcement"
 
 const Header = () => {
-    const [line, setLine] = useState(false)
+
+    let [line, setLine] = useState(false)
 
     const navlinehandler = () => {
         if (window.scrollY >= 80) {
@@ -19,6 +20,7 @@ const Header = () => {
     useEffect(() => {
         window.addEventListener('scroll', navlinehandler)
     }, []);
+
 
     return (
         <>
