@@ -6,7 +6,7 @@ import DiscordCard from "../../Cards/DiscordCard"
 import GitHubCard from "../../Cards/GitHubCard"
 import InstagramCard from "../../Cards/InstagramCard"
 
-const RightSection = (props) => {
+const RightSection = () => {
 
     const settings = {
         className: "max-w-[400px] 480max:max-w-[320px] 380max:max-w-[240px] mr-[20px] 992max:mr-[0]",
@@ -20,6 +20,7 @@ const RightSection = (props) => {
         slidesToScroll: 1,
 
     };
+
     return (
         <div>
             <Slider {...settings} >

@@ -37,7 +37,7 @@ const RightSection = () => {
 
                 <div>
                     <button
-                        className="inline-block rounded-md border border-solid border-lightcolor bg-lightcolor px-6 pt-2 pb-2 text-white dark:border-darkcolor  dark:bg-darksurface dark:text-darkcolor">
+                        className="inline-block rounded-md border border-solid border-lightcolor bg-[whitesmoke] px-6 pt-2 pb-2 text-white dark:border-darkcolor  dark:bg-darksurface dark:text-darkcolor">
                         Submit
                     </button>
                 </div>

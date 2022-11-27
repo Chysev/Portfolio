@@ -1,4 +1,4 @@
-// Components
+// Component
 import SchoolProjectCard from '../../Cards/SchoolProjectCard'
 
 const SecondSection = () => {

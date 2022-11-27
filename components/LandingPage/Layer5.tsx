@@ -18,8 +18,7 @@ const Layer5 = () => {
     };
 
     return (
-        <div className="flex">
-
+        <section className="flex">
 
             <div
                 id="Projects"
@@ -52,7 +51,7 @@ const Layer5 = () => {
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }
 

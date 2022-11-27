@@ -1,4 +1,3 @@
-// data 
 import Layda from '../../../public/Layda3.jpg'
 
 const RightSection = () => {

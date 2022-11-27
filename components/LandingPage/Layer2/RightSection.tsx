@@ -8,7 +8,7 @@ const RightSection = () => {
     return (
         <div className="flex flex-col gap-1">
             <div>
-                <div className='flex mb-[12px] items-center gap-[2px]'>
+                <div className='flex mb-[12px] items-center gap-3'>
                     <Line />
                     {
                         datas.map((datas, index) => (

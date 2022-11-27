@@ -8,18 +8,17 @@ import Announcement from "../Others/Announcement"
 const Header = () => {
     const [line, setLine] = useState(false)
 
-    useEffect(() => {
-
-        const navlinehandler = () => {
-            if (window.scrollY >= 80) {
-                setLine(true)
-            } else {
-                setLine(false)
-            }
+    const navlinehandler = () => {
+        if (window.scrollY >= 80) {
+            setLine(true)
+        } else {
+            setLine(false)
         }
+    }
 
+    useEffect(() => {
         window.addEventListener('scroll', navlinehandler)
-    })
+    }, []);
 
     return (
         <>

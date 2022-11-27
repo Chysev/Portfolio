@@ -7,7 +7,7 @@ import RightSection from "./Layer1/RightSection"
 
 const Layer1 = () => {
     return (
-        <div className="flex">
+        <section id="Home" className="flex">
             <motion.div
                 animate={{ y: [-200, 0, 0] }}
                 transition={{ duration: 2, ease: "easeOut" }}
@@ -15,7 +15,7 @@ const Layer1 = () => {
                 <LeftSection />
                 <RightSection />
             </motion.div>
-        </div>
+        </section>
     )
 }
 

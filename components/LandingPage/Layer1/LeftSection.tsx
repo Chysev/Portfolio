@@ -1,4 +1,4 @@
-// Component
+// Components
 import Line from '../../Icons/Line'
 import HiredcvButton from '../../Buttons/HiredcvButton'
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Link from "next/link"
+import { Link, animateScroll as scroll } from "react-scroll";
 
 // Component
 import Switcher from "./Switcher"
@@ -27,26 +27,26 @@ const NavList = () => {
                 <ul className="flex items-center gap-[2.8rem] 768max:fixed 768max:my-auto 
                 768max:mx-[5rem] 768max:flex-col 768max:items-center 768max:p-[min(20vh,_10rem)_2em]">
 
-                    <Link href="/">
-                        <p className="font-[500] text-lightcolor hover:text-lightcolor dark:text-darkcolor dark:hover:text-darkcolor">
+                    <Link smooth={true} duration={600} to="Home">
+                        <p className="font-[500] text-lightcolo cursor-pointer hover:text-lightcolor dark:text-darkcolor dark:hover:text-darkcolor">
                             Home
                         </p>
                     </Link>
 
-                    <Link href="#About">
-                        <p className="font-[500] text-darkcolor hover:text-lightcolor dark:text-lightcolor dark:hover:text-darkcolor">
+                    <Link smooth={true} duration={600} to="About">
+                        <p className="font-[500] text-darkcolor cursor-pointer hover:text-lightcolor dark:text-lightcolor dark:hover:text-darkcolor">
                             About
                         </p>
                     </Link>
 
-                    <Link href="#Projects">
-                        <p className="font-[500] text-darkcolor hover:text-lightcolor dark:text-lightcolor dark:hover:text-darkcolor">
+                    <Link smooth={true} duration={600} to="Projects">
+                        <p className="font-[500] text-darkcolor cursor-pointer hover:text-lightcolor dark:text-lightcolor dark:hover:text-darkcolor">
                             Projects
                         </p>
                     </Link>
 
-                    <Link href="#Email">
-                        <p className="font-[500] text-darkcolor hover:text-lightcolor dark:text-lightcolor dark:hover:text-darkcolor">
+                    <Link smooth={true} duration={600} to="Email">
+                        <p className="font-[500] text-darkcolor cursor-pointer hover:text-lightcolor dark:text-lightcolor dark:hover:text-darkcolor">
                             Email
                         </p>
                     </Link>

@@ -9,9 +9,7 @@ const Language = () => {
                 datas.map((datas) => (
                     <div key={datas.id} className="flex items-center gap-2">
                         <i className="fa-regular fa-circle-check" />
-
                         <p className="text-lightcolor dark:text-[white]">{datas.check}</p>
-
                     </div>
                 ))
             }

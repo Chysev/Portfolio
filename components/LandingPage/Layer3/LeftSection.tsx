@@ -1,10 +1,10 @@
-import Link from "next/link"
+import { Link, animateScroll as scroll } from "react-scroll";
 
-// Component
+// Components
 import Line from "../../Icons/Line"
 import Button from "../../Buttons/Button"
 
-// data
+// datas
 import datas from '../../../data/herodata.json'
 import datas2 from '../../../data/checkdata.json'
 
@@ -12,7 +12,7 @@ const LeftSection = () => {
     return (
         <div
             className="pl-[10px] 992max:pl-[0]">
-            <div className="flex items-center gap-[1px]">
+            <div className="flex items-center gap-3">
                 <Line />
                 {
                     datas.map((datas, index) => (
@@ -48,7 +48,6 @@ const LeftSection = () => {
                 }
 
 
-
                 <div className="grid gap-[0.5rem] grid-cols-2">
 
                     {
@@ -69,7 +68,7 @@ const LeftSection = () => {
 
 
                     <Button>
-                        <Link href="#Lang&Tools">
+                        <Link to="Lang&Tools" smooth={true} duration={600}>
                             Language and Tools
                         </Link>
                     </Button>
@@ -77,7 +76,7 @@ const LeftSection = () => {
 
 
                     <Button>
-                        <Link href="#Projects">
+                        <Link to="Projects" smooth={true} duration={600}>
                             Projects
                         </Link>
                     </Button>
