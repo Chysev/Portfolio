@@ -1,4 +1,4 @@
-// Component
+// Components
 import Layer1 from "../components/LandingPage/Layer1"
 import Layer2 from "../components/LandingPage/Layer2"
 import Layer3 from "../components/LandingPage/Layer3"
