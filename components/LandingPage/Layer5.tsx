@@ -34,12 +34,12 @@ const Layer5 = () => {
                 <div className="flex gap-3">
 
                     <p onClick={handleFirst}
-                        className={`shadow-[_0_0_2px_whitesmoke] inline-block rounded-[50%] px-[0.9rem] py-[0.5rem] cursor-pointer hover:opacity-[0.8] ${activeTab === "tab1" ? "active" : ""}`}>
+                        className={`shadow-[_0_0_2px_whitesmoke] inline-block rounded-[50px] px-[1rem] py-[0.5rem] cursor-pointer hover:opacity-[0.8] ${activeTab === "tab1" ? "active" : ""}`}>
                         1
                     </p>
 
                     <p onClick={handleSecond}
-                        className={`shadow-[_0_0_2px_whitesmoke] inline-block rounded-[50%] px-[0.9rem] py-[0.5rem] cursor-pointer hover:opacity-[0.8] ${activeTab === "tab2" ? "active" : ""}`}>
+                        className={`shadow-[_0_0_2px_whitesmoke] inline-block rounded-[50px] px-[1rem] py-[0.5rem] cursor-pointer hover:opacity-[0.8] ${activeTab === "tab2" ? "active" : ""}`}>
                         2
                     </p>
 
