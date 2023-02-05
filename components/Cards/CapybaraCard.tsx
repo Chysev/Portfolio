@@ -22,13 +22,13 @@ const CapybaraCard = () => {
                 style={{ borderRadius: "10px 0px 10px 10px" }}
                 className="leading-[24px] text-[whitesmoke] items-center flex flex-col justify-center gap-6 bg-lightsurface dark:bg-darksurface portfolios">
 
-                <h1 className="text-center text-2xl text-lightcolor dark:text-white">Capybara Music Bot</h1>
+                <h1 className="text-center text-2xl text-lightcolor dark:text-white">Capybara Bot</h1>
 
                 <div className="flex gap-1">
                     <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Discordjs</p>
                     <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Erelajs</p>
                     <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">LavaLink</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">JavaScript</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Typescript</p>
                 </div>
 
                 <picture>
@@ -66,13 +66,13 @@ const CapybaraCard = () => {
                 style={{ borderRadius: "10px 0px 10px 10px" }}
                 className="leading-[24px] text-[whitesmoke] items-center flex flex-col justify-center gap-6 bg-lightsurface dark:bg-darksurface portfolios">
 
-                <h1 className="text-center text-2xl text-lightcolor dark:text-white">Capybara Music Bot</h1>
+                <h1 className="text-center text-2xl text-lightcolor dark:text-white">Capybara Bot</h1>
 
                 <div className="flex gap-1">
                     <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Discordjs</p>
                     <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Erelajs</p>
                     <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">LavaLink</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">JavaScript</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Typescript</p>
                 </div>
 
                 <div className="flex flex-col gap-2 text-lightcolor dark:text-white">
@@ -91,7 +91,7 @@ const CapybaraCard = () => {
                         </div>
                         <div className="flex flex-col">
                             <a>
-                                <i className="fa-solid fa-circle-check" /> JavaScript
+                                <i className="fa-solid fa-circle-check" /> Typescript
                             </a>
                             <a>
                                 <i className="fa-solid fa-circle-check" /> Open Source
