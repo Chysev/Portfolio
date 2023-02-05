@@ -76,7 +76,7 @@ const CapybaraCard = () => {
                 </div>
 
                 <div className="flex flex-col gap-2 text-lightcolor dark:text-white">
-                    <p>Capybara Music Bot, This project is build with Discordjs, Erelajs and Lavalink server for music api</p>
+                    <p>Capybara Bot, This project is build with Discordjs, Erelajs and Lavalink server for music api</p>
                     <div className="flex flex-row gap-2">
                         <div className="flex flex-col">
                             <a>
