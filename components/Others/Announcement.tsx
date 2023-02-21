@@ -5,7 +5,7 @@ const Announcement = () => {
                 <picture>
                     <img src="https://static.create.vista.com/images/banners/no-war/logo-banner-ua.svg" alt="" />
                 </picture>
-                <p className="text-lightcolor dark:text-paragraphdarkcolor text-justify ">#StandWithUkraine | Let us support Ukrainian</p>
+                <p className="text-lightcolor dark:text-paragraphdarkcolor text-justify ">#StandWithUkraine | Let us support Ukrainians</p>
             </div>
         </footer>
     );
