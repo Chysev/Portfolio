@@ -39,7 +39,7 @@ const TemplateCard = (props) => {
 
                 <div className="flex gap-2">
 
-                    <Link href="https://github.com/Chysev/christmas">
+                    <Link href={props.githublink}>
                         <button
                             className="rounded-md border border-solid border-lightcolor bg-lightcolor px-6 pt-2 pb-2 text-white dark:border-darkcolor dark:bg-darksurface dark:text-darkcolor cardbtn">
                             Source Code
@@ -96,7 +96,7 @@ const TemplateCard = (props) => {
 
                 <div className="flex gap-2">
 
-                    <Link href="https://github.com/Chysev/christmas">
+                    <Link href={props.githublink}>
                         <button
                             className="rounded-md border border-solid border-lightcolor bg-lightcolor px-6 pt-2 pb-2 text-white dark:border-darkcolor dark:bg-darksurface dark:text-darkcolor cardbtn">
                             Source Code

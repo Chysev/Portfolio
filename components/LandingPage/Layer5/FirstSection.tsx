@@ -7,6 +7,7 @@ const FirstSection = () => {
         <div className="grid  max-w-[1300px] grid-cols-3 items-center gap-10 992max:flex 992max:max-w-[520px] 992max:flex-col 380max:max-w-[370px] 1360max:grid-cols-2">
             <ProjectCard
                 image="Christmas.jpg"
+                githublink="https://github.com/Chysev/christmas"
                 title="Christmas CountDown"
                 builtwith1="HTML"
                 builtwith2="CSS"
@@ -20,6 +21,7 @@ const FirstSection = () => {
 
             <ProjectCard
                 image="Minecraft.jpg"
+                githublink="https://github.com/Chysev/Minecraft_Website"
                 title="Minecraft"
                 builtwith1="HTML"
                 builtwith2="CSS"
@@ -33,6 +35,7 @@ const FirstSection = () => {
 
             <ProjectCard2
                 image="EJS.jpg"
+                githublink="https://github.com/Chysev/express-ejs-app"
                 title="Ejs App"
                 builtwith1="EXPRESS"
                 builtwith2="EJS"
@@ -46,6 +49,7 @@ const FirstSection = () => {
 
             <ProjectCard2
                 image="Nightflix.jpg"
+                githublink="https://github.com/Chysev/NightFlix"
                 title="Nightflix"
                 builtwith1="NEXTJS"
                 builtwith2="NEXT-AUTH"
@@ -59,6 +63,7 @@ const FirstSection = () => {
 
             <ProjectCard2
                 image="PageClip.jpg"
+                githublink="https://github.com/Chysev/pageclipstaticweb"
                 title="PageClip"
                 builtwith1="HTML"
                 builtwith2="CSS"
@@ -72,6 +77,7 @@ const FirstSection = () => {
 
             <ProjectCard2
                 image="Portfolio.jpg"
+                githublink="https://github.com/Chysev/Portfolio-Public-Repo"
                 title="Portfolio"
                 builtwith1="REACTJS"
                 builtwith2="CSS/TAILWIND"

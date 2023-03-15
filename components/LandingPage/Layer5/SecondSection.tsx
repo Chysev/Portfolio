@@ -7,6 +7,7 @@ const SecondSection = () => {
         <div className="grid  max-w-[1300px] grid-cols-3 items-center gap-10 992max:flex 992max:max-w-[520px] 992max:flex-col 380max:max-w-[370px] 1360max:grid-cols-2">
             <ProjectCard
                 image="SchoolProject.png"
+                githublink="https://github.com/Chysev/21st_MIL_Project"
                 title="100 Tula Website"
                 builtwith1="NEXTJS"
                 builtwith2="DB"
@@ -20,6 +21,7 @@ const SecondSection = () => {
 
             <ProjectCard2
                 image="Capybara.jpg"
+                githublink="https://github.com/Chysev/CapybaraBOT"
                 title="Capybara Bot"
                 builtwith1="DISCORDJS"
                 builtwith2="ERELAJS"
