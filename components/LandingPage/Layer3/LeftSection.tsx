@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Line from "../../Icons/Line"
 import Button from "../../Buttons/Button"
 
-// datas
+// Datas
 import datas from '../../../data/herodata.json'
 import datas2 from '../../../data/checkdata.json'
 

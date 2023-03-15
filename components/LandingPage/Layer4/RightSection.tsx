@@ -1,6 +1,6 @@
 // Components 
-import Language from "../../Icons/Language"
 import Tools from "../../Icons/Tools"
+import Language from "../../Icons/Language"
 
 const RightSection = () => {
     return (

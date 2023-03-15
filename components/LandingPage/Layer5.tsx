@@ -5,7 +5,6 @@ import FirstSection from "./Layer5/FirstSection"
 import SecondSection from "./Layer5/SecondSection"
 import Line from "../Icons/Line"
 
-
 const Layer5 = () => {
 
     const [activeTab, setActiveTab] = useState("tab1");

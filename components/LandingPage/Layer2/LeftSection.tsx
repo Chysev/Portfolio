@@ -10,7 +10,6 @@ const LeftSection = () => {
             <div className="grid">
                 <MiniCard icon="text-[50px] text-darkcolor dark:text-white fa-brands fa-angular" brandname="Mean Stack" />
                 <MiniCard icon="text-[50px] fab fa-node text-darkcolor dark:text-white" brandname="Ejs Stack" />
-
             </div>
         </div>
     )

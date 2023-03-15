@@ -1,7 +1,7 @@
 // Component 
 import Line from '../../Icons/Line'
 
-// data
+// Datas
 import datas from '../../../data/herodata.json'
 
 const RightSection = () => {

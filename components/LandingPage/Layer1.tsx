@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import LeftSection from "./Layer1/LeftSection"
 import RightSection from "./Layer1/RightSection"
 
-
 const Layer1 = () => {
     return (
         <section id="Home" className="flex">

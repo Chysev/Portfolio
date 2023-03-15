@@ -2,7 +2,7 @@
 import Line from '../../Icons/Line'
 import HiredcvButton from '../../Buttons/HiredcvButton'
 
-// data
+// Datas
 import datas from "../../../data/herodata.json"
 
 const LeftSection = () => {

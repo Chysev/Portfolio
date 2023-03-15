@@ -4,7 +4,6 @@ import dynamic from "next/dynamic"
 const Header = dynamic(() => import("./App/Header"), { ssr: false })
 const Footer = dynamic(() => import("./App/Footer"), { ssr: false })
 
-
 const Layout = ({ children }) => {
     return (
         <>

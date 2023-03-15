@@ -1,4 +1,4 @@
-// data
+// Datas
 import datas from '../../data/checkdata2.json'
 
 const Language = () => {

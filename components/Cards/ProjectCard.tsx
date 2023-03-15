@@ -1,7 +1,6 @@
+import Link from "next/link";
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import Link from "next/link";
-import ChristmasImg from "../../public/Christmas.jpg"
 
 
 const TemplateCard = (props) => {

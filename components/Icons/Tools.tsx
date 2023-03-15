@@ -1,4 +1,4 @@
-// data
+// Datas
 import datas from '../../data/checkdata3.json'
 
 const Tools = () => {
