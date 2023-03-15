@@ -1,10 +1,10 @@
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import Link from "next/link";
-import EJSImg from "../../public/EJS.jpg"
+import ChristmasImg from "../../public/Christmas.jpg"
 
 
-const EJSCard = () => {
+const TemplateCard = (props) => {
 
     // Flip Card
     const [isFlipped, setIsFlipped] = useState(false);
@@ -22,26 +22,25 @@ const EJSCard = () => {
                 style={{ borderRadius: "10px 0px 10px 10px" }}
                 className="leading-[24px] text-[whitesmoke] items-center flex flex-col justify-center gap-6 bg-lightsurface dark:bg-darksurface portfolios">
 
-                <h1 className="text-center text-2xl text-lightcolor dark:text-white">Ejs App</h1>
+                <h1 className="text-center text-2xl text-lightcolor dark:text-white">{props.title}</h1>
 
                 <div className="flex gap-1">
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Express</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Ejs</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Aos</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">JavaScript</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith1}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith2}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith3}</p>
                 </div>
 
                 <picture>
                     <img
                         style={{ borderRadius: "10px 0px 10px 10px" }}
-                        src={EJSImg.src}
+                        src={props.image}
                         alt=""
                     />
                 </picture>
 
                 <div className="flex gap-2">
 
-                    <Link href="https://github.com/Chysev/express-ejs-app">
+                    <Link href="https://github.com/Chysev/christmas">
                         <button
                             className="rounded-md border border-solid border-lightcolor bg-lightcolor px-6 pt-2 pb-2 text-white dark:border-darkcolor dark:bg-darksurface dark:text-darkcolor cardbtn">
                             Source Code
@@ -66,35 +65,31 @@ const EJSCard = () => {
                 style={{ borderRadius: "10px 0px 10px 10px" }}
                 className="leading-[24px] text-[whitesmoke] items-center flex flex-col justify-center gap-6 bg-lightsurface dark:bg-darksurface portfolios">
 
-                <h1 className="text-center text-2xl text-lightcolor dark:text-white">Ejs App</h1>
+                <h1 className="text-center text-2xl text-lightcolor dark:text-white">{props.title}</h1>
 
                 <div className="flex gap-1">
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Express</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Ejs</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Aos</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">JavaScript</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith1}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith2}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith3}</p>
                 </div>
 
                 <div className="flex flex-col gap-2 text-lightcolor dark:text-white">
-                    <p>Ejs with built in Animation, This project is built with Express, Ejs, JavaScript and Aos Library. This will helps new developers who are starting with an Ejs App like e-commerce</p>
+                    <p>{props.description}</p>
                     <div className="flex flex-row gap-2">
                         <div className="flex flex-col">
                             <a>
-                                <i className="fa-solid fa-circle-check" /> Express
+                                <i className="fa-solid fa-circle-check" /> {props.check1}
                             </a>
                             <a>
-                                <i className="fa-solid fa-circle-check" /> Ejs
+                                <i className="fa-solid fa-circle-check" /> {props.check2}
                             </a>
                             <a>
-                                <i className="fa-solid fa-circle-check" /> Css
+                                <i className="fa-solid fa-circle-check" /> {props.check3}
                             </a>
                         </div>
                         <div className="flex flex-col">
                             <a>
-                                <i className="fa-solid fa-circle-check" /> ES5
-                            </a>
-                            <a>
-                                <i className="fa-solid fa-circle-check" /> Open Source
+                                <i className="fa-solid fa-circle-check" /> {props.check4}
                             </a>
                         </div>
                     </div>
@@ -102,7 +97,7 @@ const EJSCard = () => {
 
                 <div className="flex gap-2">
 
-                    <Link href="https://github.com/Chysev/express-ejs-app">
+                    <Link href="https://github.com/Chysev/christmas">
                         <button
                             className="rounded-md border border-solid border-lightcolor bg-lightcolor px-6 pt-2 pb-2 text-white dark:border-darkcolor dark:bg-darksurface dark:text-darkcolor cardbtn">
                             Source Code
@@ -122,4 +117,4 @@ const EJSCard = () => {
     );
 };
 
-export default EJSCard;
+export default TemplateCard;

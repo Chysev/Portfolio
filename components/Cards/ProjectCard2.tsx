@@ -1,10 +1,9 @@
 import { useState } from "react";
-import ReactCardFlip from "react-card-flip";
 import Link from "next/link";
-import MinecraftImg from "../../public/Minecraft.jpg"
+import ReactCardFlip from "react-card-flip";
 
 
-const MinecraftCard = () => {
+const TemplateCard2 = (props) => {
 
     // Flip Card
     const [isFlipped, setIsFlipped] = useState(false);
@@ -22,25 +21,26 @@ const MinecraftCard = () => {
                 style={{ borderRadius: "10px 0px 10px 10px" }}
                 className="leading-[24px] text-[whitesmoke] items-center flex flex-col justify-center gap-6 bg-lightsurface dark:bg-darksurface portfolios">
 
-                <h1 className="text-center text-2xl text-lightcolor dark:text-white">Minecraft</h1>
+                <h1 className="text-center text-2xl text-lightcolor dark:text-white">{props.title}</h1>
 
                 <div className="flex gap-1">
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Html</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Css</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">JavaScript</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith1}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith2}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith3}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith4}</p>
                 </div>
 
                 <picture>
                     <img
                         style={{ borderRadius: "10px 0px 10px 10px" }}
-                        src={MinecraftImg.src}
+                        src={props.image}
                         alt=""
                     />
                 </picture>
 
                 <div className="flex gap-2">
 
-                    <Link href="https://github.com/Chysev/Minecraft_Website">
+                    <Link href="https://github.com/Chysev/christmas">
                         <button
                             className="rounded-md border border-solid border-lightcolor bg-lightcolor px-6 pt-2 pb-2 text-white dark:border-darkcolor dark:bg-darksurface dark:text-darkcolor cardbtn">
                             Source Code
@@ -65,35 +65,32 @@ const MinecraftCard = () => {
                 style={{ borderRadius: "10px 0px 10px 10px" }}
                 className="leading-[24px] text-[whitesmoke] items-center flex flex-col justify-center gap-6 bg-lightsurface dark:bg-darksurface portfolios">
 
-                <h1 className="text-center text-2xl text-lightcolor dark:text-white">Minecraft</h1>
+                <h1 className="text-center text-2xl text-lightcolor dark:text-white">{props.title}</h1>
 
                 <div className="flex gap-1">
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Html</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">Css</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">JavaScript</p>
-                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">DB</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith1}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith2}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith3}</p>
+                    <p className="m-auto h-6 rounded-lg bg-paragraphdarkcolor px-2 text-sm">{props.builtwith4}</p>
                 </div>
 
                 <div className="flex flex-col gap-2 text-lightcolor dark:text-white">
-                    <p>Minecraft Website, This project is built with HTML, CSS and JavaScript</p>
+                    <p>{props.description}</p>
                     <div className="flex flex-row gap-2">
                         <div className="flex flex-col">
                             <a>
-                                <i className="fa-solid fa-circle-check" /> Html
+                                <i className="fa-solid fa-circle-check" /> {props.check1}
                             </a>
                             <a>
-                                <i className="fa-solid fa-circle-check" /> Css
+                                <i className="fa-solid fa-circle-check" /> {props.check2}
                             </a>
                             <a>
-                                <i className="fa-solid fa-circle-check" /> JavaScript
+                                <i className="fa-solid fa-circle-check" /> {props.check3}
                             </a>
                         </div>
                         <div className="flex flex-col">
                             <a>
-                                <i className="fa-solid fa-circle-check" /> Good For Minecraft Server
-                            </a>
-                            <a>
-                                <i className="fa-solid fa-circle-check" /> Open Source
+                                <i className="fa-solid fa-circle-check" /> {props.check4}
                             </a>
                         </div>
                     </div>
@@ -101,7 +98,7 @@ const MinecraftCard = () => {
 
                 <div className="flex gap-2">
 
-                    <Link href="https://github.com/Chysev/Minecraft_Website">
+                    <Link href="https://github.com/Chysev/christmas">
                         <button
                             className="rounded-md border border-solid border-lightcolor bg-lightcolor px-6 pt-2 pb-2 text-white dark:border-darkcolor dark:bg-darksurface dark:text-darkcolor cardbtn">
                             Source Code
@@ -121,4 +118,4 @@ const MinecraftCard = () => {
     );
 };
 
-export default MinecraftCard;
+export default TemplateCard2;

@@ -1,10 +1,7 @@
 import Slider from 'react-slick'
 
-// Components
-import FacebookCard from "../../Cards/FacebookCard"
-import DiscordCard from "../../Cards/DiscordCard"
-import GitHubCard from "../../Cards/GitHubCard"
-import InstagramCard from "../../Cards/InstagramCard"
+// Component
+import SlideCard from '../../Cards/SlideCard'
 
 const RightSection = () => {
 
@@ -25,19 +22,19 @@ const RightSection = () => {
         <div>
             <Slider {...settings} >
                 <div>
-                    <FacebookCard />
+                    <SlideCard link="https://www.facebook.com/Chysev/" icon="text-[50px] fa-brands fa-facebook text-darkcolor dark:text-white" brandname="Facebook" />
                 </div>
 
                 <div>
-                    <DiscordCard />
+                    <SlideCard link="" icon="text-[50px] fa-brands fa-discord text-darkcolor dark:text-white" brandname="Discord" />
                 </div>
 
                 <div>
-                    <GitHubCard />
+                    <SlideCard link="https://github.com/Chysev" icon="text-[50px] fa-brands fa-github text-darkcolor dark:text-white" brandname="GitHub" />
                 </div>
 
                 <div>
-                    <InstagramCard />
+                    <SlideCard link="https://www.instagram.com/chysevvv_layda/" icon="text-[50px] fa-brands fa-discord text-darkcolor dark:text-white" brandname="Instagram" />
                 </div>
             </Slider>
         </div>
