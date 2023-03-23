@@ -1,7 +1,7 @@
 const RightSection = () => {
     return (
         <form
-            action="https://send.pageclip.co/f4p3YpiPFMVQQPh641KFQExpXGlReG2S/Portfolio"
+            action={`https://send.pageclip.co/${process.env.EmailKey}/${process.env.FormName}`}
             method="post"
             className="-mx-3 mb-6 flex flex-wrap 992max:mx-auto 992max:mb-auto 992max:items-center">
 
