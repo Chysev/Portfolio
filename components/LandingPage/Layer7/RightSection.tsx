@@ -1,14 +1,10 @@
 const RightSection = () => {
 
-    const APIKEY = {
-        Emailkey: process.env.Emailkey,
-        FormName: process.env.FormName
-    }
 
     return (
 
         <form
-            action={`https://send.pageclip.co/${APIKEY.Emailkey}/${APIKEY.FormName}`}
+            action="https://send.pageclip.co/f4p3YpiPFMVQQPh641KFQExpXGlReG2S/Portfolio"
             method="post"
             className="-mx-3 mb-6 flex flex-wrap 992max:mx-auto 992max:mb-auto 992max:items-center">
 
