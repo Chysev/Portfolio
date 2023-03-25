@@ -83,7 +83,7 @@ const FirstSection = () => {
                 builtwith2="CSS/TAILWIND"
                 builtwith3="DB"
                 builtwith4="JavaScript"
-                description="PageClip Froms, This project is built with HTML, CSS/TAILWIND, JAVASCRIPT and PageClip Database Server that will store all of the information of the user's input"
+                description="This website is a template for people who are looking for a template to create their own web portfolio, This project is build with Reactjs + Vite, and Tailwind"
                 check1="REACT"
                 check2="CSS/TAILWIND"
                 check3="JavaScript"
