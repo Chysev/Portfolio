@@ -10,8 +10,8 @@ const HiredcvButton = () => {
                 </button>
             </Link>
 
-            <a href="../../public/_RESUME-LAYDA.pdf" className="cursor-pointer text-center hover:opacity-[0.8] text-lightcolor underline dark:text-darkcolor">
-                Download Resume
+            <a href="/public/_RESUME-LAYDA.pdf" className="cursor-pointer text-center hover:opacity-[0.8] text-lightcolor underline dark:text-darkcolor">
+                Resume
             </a>
         </div>
     );
