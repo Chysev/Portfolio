@@ -25,7 +25,7 @@ const LeftSection = () => {
                 <div className="flex flex-col gap-2">
                     <a className="flex flex-row items-center gap-4 text-lightcolor dark:text-paragraphdarkcolor 640max:text-base 380max:text-sm">
                         <i className="fa-solid fa-location-dot text-2xl text-lightcolor dark:text-darkcolor" />
-                        International City, Dubai - UAE
+                        Quezon City
                     </a>
 
                     <a className="flex cursor-pointer flex-row items-center gap-3 text-lightcolor dark:text-paragraphdarkcolor 640max:text-base 380max:text-sm">
@@ -35,7 +35,7 @@ const LeftSection = () => {
 
                     <a className="flex flex-row items-center gap-2 text-lightcolor dark:text-paragraphdarkcolor 640max:text-base 380max:text-sm">
                         <i className="fa-solid fa-phone text-2xl text-lightcolor dark:text-darkcolor" />
-                        +971 56 578 3459
+                        +63 0945 899 8052
                     </a>
                 </div>
 
